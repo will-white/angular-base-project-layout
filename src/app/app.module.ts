@@ -16,6 +16,7 @@ import { SearchBoxComponent } from "./core/search/search-box/search-box.componen
 import { SearchResultsComponent } from "./core/search/search-results/search-results.component";
 import { ReportingErrorHandler } from "./core/reporting-error-handler";
 import { WindowToken, windowProvider } from "./core/window";
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   imports: [
@@ -33,7 +34,8 @@ import { WindowToken, windowProvider } from "./core/window";
     NavBarComponent,
     FooterComponent,
     SearchBoxComponent,
-    SearchResultsComponent
+    SearchResultsComponent,
+    HomeComponent
   ],
   bootstrap: [AppComponent],
   providers: [
