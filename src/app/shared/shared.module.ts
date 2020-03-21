@@ -9,7 +9,7 @@ import { FooterComponent } from './components/footer/footer.component';
   imports: [
     CommonModule
   ],
-  declarations: [SideNavComponent, TableOfContentsComponent, FooterComponent],
+  declarations: [TableOfContentsComponent],
   providers: [LoggerService]
 })
 export class SharedModule { }
